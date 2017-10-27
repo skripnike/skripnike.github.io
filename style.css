@@ -230,11 +230,14 @@ section:last-child {
 	}
 }
 
-/*@media print {
-    #cv {
-        width: 100%;
-    }
-}*/
+@media print {
+	.print--hide {
+		display: none;
+	}
+	/*#cv {
+      width: 100%;
+  }*/
+}
 
 @-webkit-keyframes reset {
 	0% {
